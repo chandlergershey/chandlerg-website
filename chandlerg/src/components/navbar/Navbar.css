@@ -1,0 +1,19 @@
+.Nav-component {
+    background-color: rgb(241, 241, 241);
+    width: 100%;
+}
+
+.Nav-logo {
+    display: inline;
+    padding-left: 20px;
+}
+
+.Nav-text {
+    height: 50px;
+    margin: 30px 20px 20px 20px;
+}
+
+.Nav-objects {
+    float: right;
+    padding-right: 40px;
+}
