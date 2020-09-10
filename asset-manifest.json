@@ -1,29 +1,29 @@
 {
   "files": {
-    "main.css": "/chandlerg.com/static/css/main.0244f760.chunk.css",
-    "main.js": "/chandlerg.com/static/js/main.05d2d38f.chunk.js",
-    "main.js.map": "/chandlerg.com/static/js/main.05d2d38f.chunk.js.map",
-    "runtime-main.js": "/chandlerg.com/static/js/runtime-main.bb3499fb.js",
-    "runtime-main.js.map": "/chandlerg.com/static/js/runtime-main.bb3499fb.js.map",
-    "static/js/2.953b25a5.chunk.js": "/chandlerg.com/static/js/2.953b25a5.chunk.js",
-    "static/js/2.953b25a5.chunk.js.map": "/chandlerg.com/static/js/2.953b25a5.chunk.js.map",
-    "index.html": "/chandlerg.com/index.html",
-    "precache-manifest.7e136867553ec7240142ba2d9be8009c.js": "/chandlerg.com/precache-manifest.7e136867553ec7240142ba2d9be8009c.js",
-    "service-worker.js": "/chandlerg.com/service-worker.js",
-    "static/css/main.0244f760.chunk.css.map": "/chandlerg.com/static/css/main.0244f760.chunk.css.map",
-    "static/js/2.953b25a5.chunk.js.LICENSE.txt": "/chandlerg.com/static/js/2.953b25a5.chunk.js.LICENSE.txt",
-    "static/media/text_about_me.svg": "/chandlerg.com/static/media/text_about_me.a1ce973e.svg",
-    "static/media/text_blog.svg": "/chandlerg.com/static/media/text_blog.d4206fa3.svg",
-    "static/media/text_chandler_g.svg": "/chandlerg.com/static/media/text_chandler_g.aa43566a.svg",
-    "static/media/text_design.svg": "/chandlerg.com/static/media/text_design.71e62c9b.svg",
-    "static/media/text_music.svg": "/chandlerg.com/static/media/text_music.d8fc97a2.svg",
-    "static/media/text_store.svg": "/chandlerg.com/static/media/text_store.fbee94fa.svg",
-    "static/media/text_videos.svg": "/chandlerg.com/static/media/text_videos.ee0f9e4c.svg"
+    "main.css": "/chandlerg-website/static/css/main.0244f760.chunk.css",
+    "main.js": "/chandlerg-website/static/js/main.77b84327.chunk.js",
+    "main.js.map": "/chandlerg-website/static/js/main.77b84327.chunk.js.map",
+    "runtime-main.js": "/chandlerg-website/static/js/runtime-main.16841688.js",
+    "runtime-main.js.map": "/chandlerg-website/static/js/runtime-main.16841688.js.map",
+    "static/js/2.953b25a5.chunk.js": "/chandlerg-website/static/js/2.953b25a5.chunk.js",
+    "static/js/2.953b25a5.chunk.js.map": "/chandlerg-website/static/js/2.953b25a5.chunk.js.map",
+    "index.html": "/chandlerg-website/index.html",
+    "precache-manifest.e37e2a62835438fac1f0c560c647da06.js": "/chandlerg-website/precache-manifest.e37e2a62835438fac1f0c560c647da06.js",
+    "service-worker.js": "/chandlerg-website/service-worker.js",
+    "static/css/main.0244f760.chunk.css.map": "/chandlerg-website/static/css/main.0244f760.chunk.css.map",
+    "static/js/2.953b25a5.chunk.js.LICENSE.txt": "/chandlerg-website/static/js/2.953b25a5.chunk.js.LICENSE.txt",
+    "static/media/text_about_me.svg": "/chandlerg-website/static/media/text_about_me.a1ce973e.svg",
+    "static/media/text_blog.svg": "/chandlerg-website/static/media/text_blog.d4206fa3.svg",
+    "static/media/text_chandler_g.svg": "/chandlerg-website/static/media/text_chandler_g.aa43566a.svg",
+    "static/media/text_design.svg": "/chandlerg-website/static/media/text_design.71e62c9b.svg",
+    "static/media/text_music.svg": "/chandlerg-website/static/media/text_music.d8fc97a2.svg",
+    "static/media/text_store.svg": "/chandlerg-website/static/media/text_store.fbee94fa.svg",
+    "static/media/text_videos.svg": "/chandlerg-website/static/media/text_videos.ee0f9e4c.svg"
   },
   "entrypoints": [
-    "static/js/runtime-main.bb3499fb.js",
+    "static/js/runtime-main.16841688.js",
     "static/js/2.953b25a5.chunk.js",
     "static/css/main.0244f760.chunk.css",
-    "static/js/main.05d2d38f.chunk.js"
+    "static/js/main.77b84327.chunk.js"
   ]
 }
