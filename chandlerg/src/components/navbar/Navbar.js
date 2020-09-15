@@ -25,7 +25,7 @@ import DropdownIcon from '../../assets/icons/dropdown.png';
 
 function Navbar() {
 
-  var navBarDisplayed = true;
+  var navBarDisplayed = false;
 
   function navBarButtonClicked() {
     if(navBarDisplayed){
