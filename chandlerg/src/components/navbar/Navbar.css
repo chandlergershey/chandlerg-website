@@ -1,9 +1,9 @@
 .Nav-component {
+    opacity: 90% !important;
     background-color: rgb(241, 241, 241);
     width: 100%;
     position: fixed;
     top: 0;
-    opacity: 90%;
 }
 
 .Nav-logo {
