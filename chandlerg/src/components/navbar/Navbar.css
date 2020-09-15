@@ -58,6 +58,17 @@
     }
 
     .Nav-dropdown {
-        padding-top: 58px;
+        margin-top: 58px;
+        box-shadow: 0 30px 40px rgba(0,0,0,.1);
+        position: fixed;
+        top: 58;
+        width: 100%;
+        background: white;
+        
+    }
+
+    .Nav-dropdown-object-container {
+        padding-bottom: 10px;
+        padding-top: 10px;
     }
 }
