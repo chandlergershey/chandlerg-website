@@ -9,6 +9,8 @@ import Blog from './blog/Blog';
 import Videos from './videos/Videos';
 import AboutMe from './aboutme/AboutMe';
 
+// npm run deploy
+
 import './App.css';
 
 import { BrowserRouter as Router, Switch, Route} from 'react-router-dom';
