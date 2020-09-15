@@ -1,11 +1,10 @@
 import React from 'react';
 import './Home.css';
+import AboutMe from '../aboutme/AboutMe';
 
 function Home() {
   return (
-    <div className="">
-      <p>Home page!</p>
-    </div>
+    <AboutMe />
   );
 }
 

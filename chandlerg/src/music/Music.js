@@ -1,10 +1,12 @@
 import React from 'react';
 import './Music.css';
+import PageUnderConstruction from '../components/PageUnderConstruction';
 
 function Music() {
   return (
     <div className="">
-      <p>Music page!</p>
+      <p className="Hello-text">Chandler G Music!</p>
+      <PageUnderConstruction />
     </div>
   );
 }

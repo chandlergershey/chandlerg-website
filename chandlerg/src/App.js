@@ -18,15 +18,18 @@ function App() {
     <div className="">
       <Router>
         <Navbar />
-        <Switch>
-          <Route path="/" exact component={Home}/>
-          <Route path="/design" exact component={Design}/>
-          <Route path="/music" exact component={Music}/>
-          <Route path="/store" exact component={Store}/>
-          <Route path="/blog" exact component={Blog}/>
-          <Route path="/videos" exact component={Videos}/>
-          <Route path="/aboutme" exact component={AboutMe}/>
-        </Switch>
+        <div className="Navbar-overlap-padding">
+          <Switch>
+            <Route path="/" exact component={Home}/>
+            <Route path="/design" exact component={Design}/>
+            <Route path="/music" exact component={Music}/>
+            <Route path="/store" exact component={Store}/>
+            <Route path="/blog" exact component={Blog}/>
+            <Route path="/videos" exact component={Videos}/>
+            <Route path="/aboutme" exact component={AboutMe}/>
+          </Switch>
+        </div>
+        
       </Router>
     </div>
   );

@@ -1,10 +1,12 @@
 import React from 'react';
 import './Blog.css';
+import PageUnderConstruction from '../components/PageUnderConstruction';
 
 function Blog() {
   return (
     <div className="">
-      <p>Blog page!</p>
+      <p className="Hello-text">My Blog!</p>
+      <PageUnderConstruction />
     </div>
   );
 }
