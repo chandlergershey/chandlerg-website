@@ -3,15 +3,6 @@ import './Navbar.css';
 import {Link} from 'react-router-dom';
 import $ from 'jquery';
 
-// component imports
-import Home from '../../home/Home';
-import Design from '../../design/Design';
-import Music from '../../music/Music';
-import Store from '../../store/Store';
-import Blog from '../../blog/Blog';
-import Videos from '../../videos/Videos';
-import AboutMe from '../../aboutme/AboutMe';
-
 // Text imports
 import ChandlerGText from '../../assets/text_images/text_chandler_g.svg';
 import MusicText from '../../assets/text_images/text_music.svg';
@@ -22,6 +13,7 @@ import VideosText from '../../assets/text_images/text_videos.svg';
 import AboutMeText from '../../assets/text_images/text_about_me.svg';
 import HomeText from '../../assets/text_images/text_home.svg';
 import DropdownIcon from '../../assets/icons/dropdown.png';
+import PortfolioText from '../../assets/text_images/text_portfolio.svg';
 
 function Navbar() {
 
@@ -54,7 +46,7 @@ function Navbar() {
 
         <div className="Nav-objects">
           <Link to='/music'><img src={MusicText} className="Nav-text" alt="Music tab" /></Link>
-          <Link to='/design'><img src={DesignText} className="Nav-text" alt="Design tab" /></Link>
+          <Link to='/design'><img src={PortfolioText} className="Nav-text" alt="Portfolio tab" /></Link>
           <Link to='/store'><img src={StoreText} className="Nav-text" alt="Store tab" /></Link>
           <Link to='/blog'><img src={BlogText} className="Nav-text" alt="Blog tab" /></Link>
           <Link to='/videos'><img src={VideosText} className="Nav-text" alt="Videos tab" /></Link>
@@ -67,7 +59,7 @@ function Navbar() {
         <div className="Nav-dropdown-object-container">
           <Link to='/'><img src={HomeText} className="Nav-dropdown-text" onClick={navBarOptionsClicked} alt="Home tab" /></Link>
           <Link to='/music'><img src={MusicText} className="Nav-dropdown-text" onClick={navBarOptionsClicked} alt="Music tab" /></Link>
-          <Link to='/design'><img src={DesignText} className="Nav-dropdown-text" onClick={navBarOptionsClicked} alt="Design tab" /></Link>
+          <Link to='/design'><img src={PortfolioText} className="Nav-dropdown-text" onClick={navBarOptionsClicked} alt="Portfolio tab" /></Link>
           <Link to='/store'><img src={StoreText} className="Nav-dropdown-text" onClick={navBarOptionsClicked} alt="Store tab" /></Link>
           <Link to='/blog'><img src={BlogText} className="Nav-dropdown-text" onClick={navBarOptionsClicked} alt="Blog tab" /></Link>
           <Link to='/videos'><img src={VideosText} className="Nav-dropdown-text" onClick={navBarOptionsClicked} alt="Videos tab" /></Link>
