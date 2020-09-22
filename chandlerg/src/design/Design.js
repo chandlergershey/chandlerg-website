@@ -2,7 +2,7 @@ import React from 'react';
 import './Design.css';
 import PageUnderConstruction from '../components/PageUnderConstruction';
 import SteveJobsImage from '../assets/portfolio/steve/steve.jpg';
-import Cards from '../components/Cards';
+import Cards from '../components/PortfolioCards';
 
 function Design() {
   return (
