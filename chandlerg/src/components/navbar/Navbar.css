@@ -25,6 +25,15 @@
     height: 30px;
 }
 
+.Nav-dropdown-button-exit {
+    display: none;
+    height: 30px ;
+}
+
+.svg-inline--fa.fa-w-11 {
+    width: 30px !important;
+}
+
 .Nav-dropdown-text {
     display: none;
 }
@@ -46,6 +55,13 @@
         display: inline;
         padding-right: 40px;
         margin-top: 15px;
+    }
+
+    .Nav-dropdown-button-exit {
+        float: right;
+        padding-right: 40px;
+        margin-top: 15px;
+        display: none;
     }
 
     .Nav-dropdown-text{

@@ -1,0 +1,10 @@
+Here are some references and notes to build my website
+
+CSS Naming Convention
+https://medium.com/trabe/a-comprehensive-guide-to-using-bem-with-react-14d00c199e0d
+~ Blocks - encapsulates a standalone entity
+~~~ blocks are written in pascal case -> ChandlerGerstenslager
+~ Elements - parts of a block and have no standalone meaning
+~~~ elements are written with single underscore -> ChandlerGerstenslager_rightFoot
+~ Modifiers - change the appearance of the modified element
+~~~ modifiers are written with three underscores -> ChandlerGerstenslager___changingClothes

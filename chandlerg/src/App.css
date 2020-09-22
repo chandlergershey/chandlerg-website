@@ -9,3 +9,7 @@
 .Navbar-overlap-padding {
   padding: 85px 0px;
 }
+
+body {
+  margin: 0px;
+}
