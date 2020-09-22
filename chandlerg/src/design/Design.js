@@ -7,10 +7,10 @@ import Cards from '../components/Cards';
 function Design() {
   return (
     <div className="">
-      <p className="Hello-text">My Design!</p>
+      {/* <p className="Hello-text">My Design!</p> */}
       <Cards />
-      <img src={SteveJobsImage} className="Steve-jobs-drawing" alt="Steve Jobs drawing" />
-      <PageUnderConstruction />
+      {/* <img src={SteveJobsImage} className="Steve-jobs-drawing" alt="Steve Jobs drawing" />
+      <PageUnderConstruction /> */}
       
     </div>
   );

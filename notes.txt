@@ -8,3 +8,7 @@ https://medium.com/trabe/a-comprehensive-guide-to-using-bem-with-react-14d00c199
 ~~~ elements are written with single underscore -> ChandlerGerstenslager_rightFoot
 ~ Modifiers - change the appearance of the modified element
 ~~~ modifiers are written with three underscores -> ChandlerGerstenslager___changingClothes
+
+
+AWS Route 53 Subdomain notes
+https://medium.com/@maskaravivek/how-to-create-a-subdomain-in-amazon-route-53-f14a995c4295
