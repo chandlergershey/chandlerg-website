@@ -1,7 +1,6 @@
-import React from 'react';
+import React, {useState} from 'react';
 import './Navbar.css';
 import {Link} from 'react-router-dom';
-import $ from 'jquery';
 
 // Text imports
 import ChandlerGText from '../../assets/text_images/text_chandler_g.svg';
@@ -15,6 +14,10 @@ import HomeText from '../../assets/text_images/text_home.svg';
 import DropdownIcon from '../../assets/icons/dropdown.png';
 import PortfolioText from '../../assets/text_images/text_portfolio.svg';
 
+// Icons
+import { FontAwesomeIcon } from '@fortawesome/react-fontawesome'
+import { faTimes } from '@fortawesome/free-solid-svg-icons'
+
 function Navbar() {
 
   var navBarDisplayed = false;
@@ -22,15 +25,21 @@ function Navbar() {
   function navBarButtonClicked() {
     if(navBarDisplayed){
       document.getElementById("nav").style.display = "none";
+      document.getElementById("nav-menu").style.display = "block";
+      document.getElementById("nav-menu-exit").style.display = "none";
       navBarDisplayed = false;
     } else {
       document.getElementById("nav").style.display = "block";
+      document.getElementById("nav-menu").style.display = "none";
+      document.getElementById("nav-menu-exit").style.display = "block";
       navBarDisplayed = true;
     }
   }
 
   function navBarOptionsClicked(){
     document.getElementById("nav").style.display = "none";
+    document.getElementById("nav-menu").style.display = "block";
+    document.getElementById("nav-menu-exit").style.display = "none";
     navBarDisplayed = false;
   }
 
@@ -53,17 +62,19 @@ function Navbar() {
           <Link to='/aboutme'><img src={AboutMeText} className="Nav-text" alt="About me tab" /></Link>
         </div>
 
-        <img onClick={navBarButtonClicked} src={DropdownIcon} className="Nav-dropdown-button" alt="drop down"></img>
+        <img id="nav-menu" onClick={navBarButtonClicked} src={DropdownIcon} className="Nav-dropdown-button" alt="drop down"></img>
+        <FontAwesomeIcon id="nav-menu-exit" onClick={navBarButtonClicked} icon={faTimes} className="Nav-dropdown-button-exit"/>
+
       </div>
       <div id="nav" className="Nav-dropdown">
-        <div className="Nav-dropdown-object-container">
-          <Link to='/'><img src={HomeText} className="Nav-dropdown-text" onClick={navBarOptionsClicked} alt="Home tab" /></Link>
-          <Link to='/music'><img src={MusicText} className="Nav-dropdown-text" onClick={navBarOptionsClicked} alt="Music tab" /></Link>
-          <Link to='/design'><img src={PortfolioText} className="Nav-dropdown-text" onClick={navBarOptionsClicked} alt="Portfolio tab" /></Link>
-          <Link to='/store'><img src={StoreText} className="Nav-dropdown-text" onClick={navBarOptionsClicked} alt="Store tab" /></Link>
-          <Link to='/blog'><img src={BlogText} className="Nav-dropdown-text" onClick={navBarOptionsClicked} alt="Blog tab" /></Link>
-          <Link to='/videos'><img src={VideosText} className="Nav-dropdown-text" onClick={navBarOptionsClicked} alt="Videos tab" /></Link>
-          <Link to='/aboutme'><img src={AboutMeText} className="Nav-dropdown-text" onClick={navBarOptionsClicked} alt="About me tab" /></Link>
+        <div className="Nav-dropdown-object-container" onClick={navBarOptionsClicked}>
+          <Link to='/'><img src={HomeText} className="Nav-dropdown-text"  alt="Home tab" /></Link>
+          <Link to='/music'><img src={MusicText} className="Nav-dropdown-text" alt="Music tab" /></Link>
+          <Link to='/design'><img src={PortfolioText} className="Nav-dropdown-text" alt="Portfolio tab" /></Link>
+          <Link to='/store'><img src={StoreText} className="Nav-dropdown-text" alt="Store tab" /></Link>
+          <Link to='/blog'><img src={BlogText} className="Nav-dropdown-text" alt="Blog tab" /></Link>
+          <Link to='/videos'><img src={VideosText} className="Nav-dropdown-text" alt="Videos tab" /></Link>
+          <Link to='/aboutme'><img src={AboutMeText} className="Nav-dropdown-text" alt="About me tab" /></Link>
         </div>
       </div>
     </div>
