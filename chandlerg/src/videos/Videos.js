@@ -8,7 +8,9 @@ function Videos() {
   return (
     <div className="">
       <p className="Hello-text">My Videos!</p>
-      <YouTube videoId="dth148PBXl4"  />
+      <div className="YouTube-player-container">
+        <YouTube videoId="dth148PBXl4"  />
+      </div>
       <PageUnderConstruction />
     </div>
   );

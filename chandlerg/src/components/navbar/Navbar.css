@@ -82,6 +82,7 @@
         width: 100%;
         background: white;
         display: none;
+        z-index: 999;
     }
 
     .Nav-dropdown-object-container {
