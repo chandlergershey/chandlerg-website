@@ -18,17 +18,22 @@ function Cards() {
           <ul className='cards__items'>
               {/* With a card item, we pass in a image source, text for the card, a label, 
               and a path to the site clicked */}
+            {/* <Link to={{ pathname: "https://www.linkedin.com/in/chandler-gerstenslager/" }} target="_blank">
+              <img className="Linkedin-logo" src={LinkedInLogo} alt="LinkedIn Logo" />
+            </Link> */}
             <CardItem
               src='images/sway-points-home-page.png'
               text='Explore the hidden waterfall deep inside the Amazon Jungle'
               label='Website'
-              path='www.google.com'
+              path={{ pathname: "https://swaypoints.com/" }}
+              target='_blank'
             />
             <CardItem
               src='images/benchmarking-energy-home-page.png'
               text='Travel through the Islands of Bali in a Private Cruise'
               label='Website'
-              path='/benchmarking-energy'
+              path={{ pathname: "https://benchmarking.energy/" }}
+              target='_blank'
             />
           </ul>
 
@@ -39,7 +44,8 @@ function Cards() {
               src='images/the-gauntlet-series-home-page.png'
               text='Explore the hidden waterfall deep inside the Amazon Jungle'
               label='Website'
-              path='/the-gauntlet-series'
+              path={{ pathname: "https://thegauntletseries.com" }}
+              target='_blank'
             />
           </ul>
 
