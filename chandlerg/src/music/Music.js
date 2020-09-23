@@ -13,9 +13,8 @@ function Music() {
       <div className="here">
         <ReactPlayer url="https://soundcloud.com/chandler_g/awaken" width="50%" style={{margin: "0 auto"}}/>
       </div>
-      
 
-      <PageUnderConstruction />
+      {/* <PageUnderConstruction /> */}
     </div>
   );
 }
