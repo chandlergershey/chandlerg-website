@@ -11,7 +11,7 @@ import CardItem from './CardItem';
 function Cards() {
   return (
     <div className='cards'>
-      <h1>Checkout my website portfolio!</h1>
+      <h1>Websites I've built</h1>
       <div className='cards__container'>
         <div className='cards__wrapper'>
 
