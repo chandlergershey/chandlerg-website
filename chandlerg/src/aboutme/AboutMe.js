@@ -16,6 +16,8 @@ function AboutMe() {
         <Link to={{ pathname: "https://www.linkedin.com/in/chandler-gerstenslager/" }} target="_blank">
           <img className="Linkedin-logo" src={LinkedInLogo} alt="LinkedIn Logo" />
         </Link>
+        <Link to='/aboutme/resume'><h1>Click here to see my resume</h1></Link>
+        
       </div>
       
       <p className="text">My name is Chandler Gerstenslager and I'm a graduate of the Ohio State University. I received a Bachelor of Science in Computer & Information Science and a minor in Design.</p>

@@ -9,6 +9,7 @@ import Blog from './blog/Blog';
 import Videos from './videos/Videos';
 import AboutMe from './aboutme/AboutMe';
 import Steve from './design/portfolio_pages/Steve';
+import Resume from './aboutme/MyResume';
 
 // npm run deploy
 
@@ -31,6 +32,7 @@ function App() {
             <Route path="/videos" exact component={Videos}/>
             <Route path="/aboutme" exact component={AboutMe}/>
             <Route path="/design/steve" exact component={Steve}/>
+            <Route path="/aboutme/resume" exact component={Resume}/>
           </Switch>
         </div>
         
