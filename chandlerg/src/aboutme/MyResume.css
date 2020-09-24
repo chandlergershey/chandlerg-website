@@ -1,9 +1,12 @@
 .Resume {
+    max-width: 1000px;
+    width: 90%;
     margin-top: 30px;
-    margin-left: 5%;
-    margin-right: 5%;
+    margin-left: auto;
+    margin-right: auto;
     border: 1px rgb(53, 53, 53) solid;
     box-shadow: 0 30px 40px rgba(0,0,0,.2);
+    
 }
 
 .Resume-container {
@@ -13,13 +16,39 @@
 
 /* Resume header */
 
+.Resume-header-contact-information {
+    font-family: 'PT Sans', sans-serif;
+    text-align: center;
+}
+
+.Resume-header-myname{
+    padding-top: 15px;
+}
+
+.Resume-header-objective {
+    padding-top: 15px;
+}
+
 
 
 /* Resume work experience */
 
+.Resume-work-experience {
+    padding-top: 15px;
+}
+
+.Resume-job-header {
+    padding-top: 15px;
+    padding-bottom: 10px;
+}
+
 
 
 /* Resume education */
+
+.Resume-education{
+    padding-top: 15px;
+}
 
 
 /*  Resume projects */

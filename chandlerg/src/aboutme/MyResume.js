@@ -11,10 +11,11 @@ function MyResume() {
             <h1>Chandler Gerstenslager</h1>
           </div>
           <div className="Resume-header-contact-information">
-            <p>chandlergerstenslager@gmail.com</p>
+            <p><b>chandlergerstenslager@gmail.com | </b><i>Phone number and address not displayed for privacy</i></p> 
           </div>
           <div className="Resume-header-objective">
-          Objective: To use my computer science expertise and exceptional graphic design skills to obtain an entry-level software developer position in a company with great culture, people, and products.
+          <b>Objective</b> 
+          <p>To use my computer science expertise and exceptional graphic design skills to obtain an entry-level software developer position in a company with great culture, people, and products.</p>
           </div>
         </div>
 
@@ -22,7 +23,7 @@ function MyResume() {
           <h1>Work Experience</h1>
           <div className="Resume-job">
             <div className="Resume-job-header">
-              Nationwide Children’s Hospital - iOS Mobile Software Developer | Columbus, OH | Jan 2020 - April 2020
+              <b>Nationwide Children’s Hospital - iOS Mobile Software Developer</b> | Columbus, OH | Jan 2020 - April 2020
             </div>
             <div className="Resume-job-description">
               <p>• Project manager of Agile driven team which developed a mood and voice tracking app for therapy patients</p>
@@ -34,19 +35,20 @@ function MyResume() {
 
           <div className="Resume-job">
             <div className="Resume-job-header">
-              Nationwide Children’s Hospital - iOS Mobile Software Developer | Columbus, OH | Jan 2020 - April 2020
+              <b>JadeTrack - Front End Web Developer</b> | Columbus, OH | May 2018 - August 2019
             </div>
             <div className="Resume-job-description">
-              <p>• Project manager of Agile driven team which developed a mood and voice tracking app for therapy patients</p>
-              <p>• Programmed in SwiftUI creating the app’s navigation bar, settings, mood selection, audio recording functionality, login and signup, and trends page</p>
-              <p>• Connected app backend to AWS Cloud Services: Cognito, Amplify, AppSync, DynamoDB, S3</p>
-              <p>• Managed project tasks in Jira, code version control in GitHub, and conducted weekly meetings with stakeholders</p>
+              <p>• Developer on a .NET, C# team building front-end web services for clients and our business team</p>
+              <p>• Redesigned the user interface of JadeTrack’s site with HTML, CSS, JavaScript, and jQuery to allow navigation bar and data tables to format to mobile views</p>
+              <p>• Built new audit reporting functionality to give customers the option to resolve, edit, and delete audit issues</p>
+              <p>• Built a sign-up portal for a customer, an informational site on energy usage for a client school district, and custom widgets such as a temperature controller, energy converter, and Air Quality Index with user-inputted zip code</p>
+              <p>• Redesigned C# and SQL models to allow the assignment of JadeTrack program managers to our clients</p>
             </div>
           </div>
 
           <div className="Resume-job">
             <div className="Resume-job-header">
-              ETC TechSolutions - Script Automation Intern | Doylestown, OH | May 2017 - August 2017
+              <b>ETC TechSolutions - Script Automation Intern</b> | Doylestown, OH | May 2017 - August 2017
             </div>
             <div className="Resume-job-description">
               <p>• Designed PowerShell scripts in ConnectWise Automate to provide professional IT computer support to over 100 customers</p>
