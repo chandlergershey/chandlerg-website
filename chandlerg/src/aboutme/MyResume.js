@@ -88,23 +88,32 @@ function MyResume() {
         </div>
 
         <div className="Resume-projects">
-          <h1>Projects</h1>
+          <h1 className="Resume-projects-header">Projects</h1>
           <div className="Resume-projects-description">
-          • Carpool Recycling Android App: Tracks an individual’s recycling metrics, send message other users, and create recycling groups with friends. Built with Java, Kotlin, and a Firebase backend
+          • <b>Carpool Recycling Android App:</b> Tracks an individual’s recycling metrics, send message other users, and create recycling groups with friends. Built with Java, Kotlin, and a Firebase backend
           </div>
           <div className="Resume-projects-description">
-          • Swaypoints Website: A Slack application for team voting on issues within Slack; I built the website and designed graphics (www.swaypoints.com)
+          • <b>Swaypoints Website:</b> A Slack application for team voting on issues within Slack; I built the website and designed graphics (www.swaypoints.com)
           </div>
           <div className="Resume-projects-description">
-          • The Gauntlet Series: My friends and I founded and hosted a 3v3 soccer tournament. I built the website (www.thegauntletseries.com), designed merchandise, advertisements, logos, and videos
+          • <b>The Gauntlet Series:</b> My friends and I founded and hosted a 3v3 soccer tournament. I built the website (www.thegauntletseries.com), designed merchandise, advertisements, logos, and videos
           </div>
 
         </div>
 
         <div className="Resume-links">
-          <h1>Links</h1>
+          <h1 className="Resume-links-header">Links</h1>
           <div className="Resume-links-description">
-          GitHub: https://github.com/chandlergershey
+          <b>GitHub:</b> https://github.com/chandlergershey/
+          </div>
+          <div className="Resume-links-description">
+          <b>LinkedIn:</b> https://www.linkedin.com/in/chandler-gerstenslager/
+          </div>
+          <div className="Resume-links-description">
+          <b>Facebook:</b> https://www.facebook.com/chandler.gerstenslager/
+          </div>
+          <div className="Resume-links-description">
+          <b>Instagram:</b> https://www.instagram.com/chandlergersh/
           </div>
         </div>
 

@@ -16,7 +16,8 @@ function AboutMe() {
         <Link to={{ pathname: "https://www.linkedin.com/in/chandler-gerstenslager/" }} target="_blank">
           <img className="Linkedin-logo" src={LinkedInLogo} alt="LinkedIn Logo" />
         </Link>
-        <Link to='/aboutme/resume'><h1>Click here to see my resume</h1></Link>
+        <h3 className="aboutme-text-linkedin">Click the icon to see my LinkedIn profile</h3>
+        <Link to='/aboutme/resume'><h1 className="resume-text-link">Click here to see my resume</h1></Link>
         
       </div>
       

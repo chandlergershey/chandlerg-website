@@ -26,7 +26,7 @@
 }
 
 .Resume-header-objective {
-    padding-top: 15px;
+    padding-top: 20px;
 }
 
 
@@ -50,11 +50,30 @@
     padding-top: 25px;
 }
 
+.Resume-education-header{
+    padding-top: 15px;
+    padding-bottom: 10px;
+}
+
 
 /*  Resume projects */
 .Resume-projects {
     padding-top: 25px;
 }
 
+.Resume-projects-header{
+    padding-top: 15px;
+    padding-bottom: 10px;
+}
+
 
 /* Resume links */
+
+.Resume-links{
+    padding-bottom: 30px;
+}
+
+.Resume-links-header{
+    padding-top: 25px;
+    padding-bottom: 10px;
+}
