@@ -64,7 +64,7 @@ function MyResume() {
         <div className="Resume-education">
           <h1>Education</h1>
           <div className="Resume-education-header">
-            The Ohio State University, Columbus, OH
+            <b>The Ohio State University, Columbus, OH</b>
           </div>
           <div className="Resume-education-description">
           • Bachelor of Science in Computer Science, May 2020 | GPA: 3.200
@@ -73,13 +73,13 @@ function MyResume() {
           • Minor in Design Thinking
           </div>
           <div className="Resume-education-header">
-          Relevant Courses
+          <b>Relevant Courses</b>
           </div>
           <div className="Resume-education-description">
           • Java Programming, Capstone with iOS project, Mobile Applications in Android Studio, Web Applications in Ruby on Rails, Computer Architecture, Calculus, Computer Algorithms, Agile, Software Requirements, Game Animation Techniques, Principles of Programming Languages, Ethics
           </div>
           <div className="Resume-education-header">
-          Professional Organizations and Clubs
+          <b>Professional Organizations and Clubs</b>
           </div>
           <div className="Resume-education-description">
           • Design Editor at The Lantern (Ohio State’s school newspaper); Innovation, Creativity, and Entrepreneur Scholars Program; Design, Deploy, Develop Startup Club

@@ -34,7 +34,7 @@
 /* Resume work experience */
 
 .Resume-work-experience {
-    padding-top: 15px;
+    padding-top: 25px;
 }
 
 .Resume-job-header {
@@ -47,12 +47,14 @@
 /* Resume education */
 
 .Resume-education{
-    padding-top: 15px;
+    padding-top: 25px;
 }
 
 
 /*  Resume projects */
-
+.Resume-projects {
+    padding-top: 25px;
+}
 
 
 /* Resume links */
