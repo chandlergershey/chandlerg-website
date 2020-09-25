@@ -18,7 +18,7 @@ function Home() {
       <p className="text">I'm currently looking for a web developer position in Charleston, South Carolina! I would also be happy to take a job anywhere in the country including Columbus or Akron, Ohio. </p>
       <hr className="hr-element"/>
       <div className="bugs-container">
-        <p className=""><i>Current bugs with my site as of 09/25/2020:</i></p>
+        <p className=""><i>Current bugs with my site as of 09/25/2020 for employer reference:</i></p>
         <p className="">(GitHub project - https://github.com/chandlergershey/chandlerg-website)</p>
         <p className="">• Navbar element not formatted correctly in Internet Explorer. (Solution: Continue tweaking CSS)</p>
         <p className="">• Refreshing the page hosted in AWS Amplify sometimes causes the page to not load. (Potential solution: Add API to Amplify backend and continue configuring React JS extension in my project)</p>
