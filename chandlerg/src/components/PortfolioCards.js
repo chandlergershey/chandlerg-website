@@ -23,14 +23,14 @@ function Cards() {
             </Link> */}
             <CardItem
               src='images/sway-points-home-page.png'
-              text='Explore the hidden waterfall deep inside the Amazon Jungle'
+              text='An informative site for a Slack tool that enables weighted voting'
               label='Website'
               path={{ pathname: "https://swaypoints.com/" }}
               target='_blank'
             />
             <CardItem
               src='images/benchmarking-energy-home-page.png'
-              text='Travel through the Islands of Bali in a Private Cruise'
+              text='A sign up page to benchmark energy usage in buildings'
               label='Website'
               path={{ pathname: "https://benchmarking.energy/" }}
               target='_blank'
@@ -42,7 +42,7 @@ function Cards() {
               and a path to the site clicked */}
             <CardItem
               src='images/the-gauntlet-series-home-page.png'
-              text='Explore the hidden waterfall deep inside the Amazon Jungle'
+              text='A landing page for the 3v3 soccer tournament my friends and I hosted'
               label='Website'
               path={{ pathname: "https://thegauntletseries.com" }}
               target='_blank'
@@ -54,7 +54,7 @@ function Cards() {
           <ul className='cards__items'>
             <CardItem
               src='images/steve.jpg'
-              text='Set Sail in the Atlantic Ocean visiting Uncharted Waters'
+              text='A Steve Jobs drawing I made in my design class'
               label='Drawing'
               path='/design/steve'
             />

@@ -12,6 +12,7 @@ import VideosText from '../../assets/text_images/text_videos.svg';
 import AboutMeText from '../../assets/text_images/text_about_me.svg';
 import HomeText from '../../assets/text_images/text_home.svg';
 import DropdownIcon from '../../assets/icons/dropdown.png';
+import CloseIcon from '../../assets/icons/close.svg';
 import PortfolioText from '../../assets/text_images/text_portfolio.svg';
 
 // Icons
@@ -63,7 +64,8 @@ function Navbar() {
         </div>
 
         <img id="nav-menu" onClick={navBarButtonClicked} src={DropdownIcon} className="Nav-dropdown-button" alt="drop down"></img>
-        <FontAwesomeIcon id="nav-menu-exit" onClick={navBarButtonClicked} icon={faTimes} className="Nav-dropdown-button-exit"/>
+        <img id="nav-menu-exit" onClick={navBarButtonClicked} src={CloseIcon} className="Nav-dropdown-button-exit" alt="close drop down"></img>
+        {/* <FontAwesomeIcon id="nav-menu-exit" onClick={navBarButtonClicked} icon={faTimes} className="Nav-dropdown-button-exit"/> */}
 
       </div>
       <div id="nav" className="Nav-dropdown">

@@ -10,8 +10,8 @@ function Music() {
       <p className="Hello-text">Chandler G Music!</p>
       {/* <img src={AwakenCover} className="Awaken-cover" alt="Awaken cover" /> */}
 
-      <div className="here">
-        <ReactPlayer url="https://soundcloud.com/chandler_g/awaken" width="50%" style={{margin: "0 auto"}}/>
+      <div className="React-player-container">
+        <ReactPlayer url="https://soundcloud.com/chandler_g/awaken" width="100%" style={{margin: "0 auto"}}/>
       </div>
 
       {/* <PageUnderConstruction /> */}

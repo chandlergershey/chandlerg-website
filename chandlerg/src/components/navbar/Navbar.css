@@ -3,6 +3,7 @@
     width: 100%;
     position: fixed;
     top: 0;
+    z-index: 999;
 }
 
 .Nav-logo {
@@ -18,6 +19,7 @@
 .Nav-objects {
     float: right;
     padding-right: 40px;
+    white-space: nowrap;
 }
 
 .Nav-dropdown-button {
@@ -81,6 +83,7 @@
         width: 100%;
         background: white;
         display: none;
+        z-index: 999;
     }
 
     .Nav-dropdown-object-container {

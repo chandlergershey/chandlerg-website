@@ -1,0 +1,79 @@
+.Resume {
+    max-width: 1000px;
+    width: 90%;
+    margin-top: 30px;
+    margin-left: auto;
+    margin-right: auto;
+    border: 1px rgb(53, 53, 53) solid;
+    box-shadow: 0 30px 40px rgba(0,0,0,.2);
+    
+}
+
+.Resume-container {
+    margin: 5%;
+}
+
+
+/* Resume header */
+
+.Resume-header-contact-information {
+    font-family: 'PT Sans', sans-serif;
+    text-align: center;
+}
+
+.Resume-header-myname{
+    padding-top: 15px;
+}
+
+.Resume-header-objective {
+    padding-top: 20px;
+}
+
+
+
+/* Resume work experience */
+
+.Resume-work-experience {
+    padding-top: 25px;
+}
+
+.Resume-job-header {
+    padding-top: 15px;
+    padding-bottom: 10px;
+}
+
+
+
+/* Resume education */
+
+.Resume-education{
+    padding-top: 25px;
+}
+
+.Resume-education-header{
+    padding-top: 15px;
+    padding-bottom: 10px;
+}
+
+
+/*  Resume projects */
+.Resume-projects {
+    padding-top: 25px;
+}
+
+.Resume-projects-header{
+    padding-top: 15px;
+    padding-bottom: 10px;
+}
+
+
+/* Resume links */
+
+.Resume-links{
+    padding-bottom: 30px;
+}
+
+.Resume-links-header{
+    padding-top: 25px;
+    padding-bottom: 10px;
+}

@@ -1,0 +1,21 @@
+.image-container {
+    margin-left: auto;
+    margin-right: auto;
+    text-align: center;
+}
+
+.Chandler-and-zack-image {
+    width: 100%;
+    max-width: 600px;
+    padding-bottom: 35px;
+}
+
+.hr-element {
+    margin-top: 30px;
+    margin-bottom: 60px;
+}
+
+.bugs-container {
+    padding-left: 7%;
+    padding-right:7%;
+}
