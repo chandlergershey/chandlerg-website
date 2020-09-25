@@ -12,3 +12,11 @@ https://medium.com/trabe/a-comprehensive-guide-to-using-bem-with-react-14d00c199
 
 AWS Route 53 Subdomain notes
 https://medium.com/@maskaravivek/how-to-create-a-subdomain-in-amazon-route-53-f14a995c4295
+
+
+Fix direct links problems
+https://stackoverflow.com/questions/34060394/cloudfront-s3-website-the-specified-key-does-not-exist-when-an-implicit-ind
+
+Maybe I was missing some steps:
+https://docs.amplify.aws/start/getting-started/setup/q/integration/react#install-amplify-libraries
+
