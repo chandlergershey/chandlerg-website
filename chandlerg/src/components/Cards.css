@@ -1,5 +1,5 @@
 .cards {
-    padding: 4rem;
+    padding: 0rem 4rem 4rem 4rem;
     background: #fff;
   }
   
@@ -98,6 +98,10 @@
     font-size: 18px;
     line-height: 24px;
   }
+
+  .Portfolio-section-header {
+    padding-bottom: 2rem;
+  }
   
   @media only screen and (min-width: 1200px) {
     .content__blog__container {
@@ -114,6 +118,13 @@
   @media only screen and (max-width: 1024px) {
     .cards__item {
       margin-bottom: 2rem;
+    }
+  }
+
+  @media only screen and (max-width: 800px) {
+    .cards {
+      padding-left: 1rem;
+      padding-right: 1rem;
     }
   }
   
