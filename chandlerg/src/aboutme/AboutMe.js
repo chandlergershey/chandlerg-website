@@ -22,7 +22,6 @@ function AboutMe() {
       </div>
       
       <p className="text">My name is Chandler Gerstenslager and I'm a graduate of the Ohio State University. I received a Bachelor of Science in Computer & Information Science and a minor in Design.</p>
-      <p className="text"> I am currently seeking a web developer job in the Chareston, SC area.</p>
     </div>
   );
 }
