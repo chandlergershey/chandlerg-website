@@ -25,7 +25,6 @@ function Home() {
         <p className="">• Refreshing the page hosted in AWS Amplify sometimes causes the page to not load. (Potential solution: Add API to Amplify backend and continue configuring React JS extension in my project)</p>
         <p className="">• Going from mobile view to desktop view keeps the dropdown menu icon in navbar. (Solution: Use Javascript DOM features to control the display of the icon)</p>
       </div> */}
-      
     </div>
   );
 }
