@@ -23,17 +23,17 @@ function Cards() {
               <img className="Linkedin-logo" src={LinkedInLogo} alt="LinkedIn Logo" />
             </Link> */}
             <CardItem
-              src='images/sway-points-home-page.png'
-              text='A landing page for Sway Points - a Slack tool that enables weighted voting'
+              src='images/spacex-website.jpg'
+              text='A SpaceX website to display rocket launch historical data'
               label='Website'
-              path={{ pathname: "https://swaypoints.com/" }}
+              path={{ pathname: "https://spacex.chandlerg.com/" }}
               target='_blank'
             />
             <CardItem
-              src='images/benchmarking-energy-home-page.png'
-              text='A JadeTrack sign up page for energy usage benchmarking'
+              src='images/sway-points-home-page.png'
+              text='A landing page for Sway Points - a Slack tool that enables weighted voting'
               label='Website'
-              path={{ pathname: "https://benchmarking.energy/" }}
+              path={{ pathname: "https://www.swaypoints.chandlerg.com/" }}
               target='_blank'
             />
             <CardItem
@@ -70,7 +70,7 @@ function Cards() {
               src='images/patent-troll.jpg'
               text='Patent troll drawing'
               label='Drawing'
-              path=''
+              path='/design/patent-troll'
             />
           </ul>
 

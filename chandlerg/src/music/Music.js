@@ -11,6 +11,18 @@ function Music() {
       {/* <img src={AwakenCover} className="Awaken-cover" alt="Awaken cover" /> */}
 
       <div className="React-player-container">
+        <ReactPlayer url="https://soundcloud.com/chandler_g/dj-chan" width="100%" style={{margin: "0 auto"}}/>
+      </div>
+
+      <div className="React-player-container">
+        <ReactPlayer url="https://soundcloud.com/chandler_g/interstellar" width="100%" style={{margin: "0 auto"}}/>
+      </div>
+
+      <div className="React-player-container">
+        <ReactPlayer url="https://soundcloud.com/chandler_g/concepts" width="100%" style={{margin: "0 auto"}}/>
+      </div>
+
+      <div className="React-player-container">
         <ReactPlayer url="https://soundcloud.com/chandler_g/awaken" width="100%" style={{margin: "0 auto"}}/>
       </div>
 

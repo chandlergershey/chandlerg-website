@@ -57,7 +57,7 @@ function Navbar() {
         <div className="Nav-objects">
           <Link to='/music'><img src={MusicText} className="Nav-text" alt="Music tab" /></Link>
           <Link to='/design'><img src={PortfolioText} className="Nav-text" alt="Portfolio tab" /></Link>
-          <Link to='/store'><img src={StoreText} className="Nav-text" alt="Store tab" /></Link>
+          {/* <Link to='/store'><img src={StoreText} className="Nav-text" alt="Store tab" /></Link> */}
           <Link to='/blog'><img src={BlogText} className="Nav-text" alt="Blog tab" /></Link>
           <Link to='/videos'><img src={VideosText} className="Nav-text" alt="Videos tab" /></Link>
           <Link to='/aboutme'><img src={AboutMeText} className="Nav-text" alt="About me tab" /></Link>
@@ -73,7 +73,7 @@ function Navbar() {
           <Link to='/'><img src={HomeText} className="Nav-dropdown-text"  alt="Home tab" /></Link>
           <Link to='/music'><img src={MusicText} className="Nav-dropdown-text" alt="Music tab" /></Link>
           <Link to='/design'><img src={PortfolioText} className="Nav-dropdown-text" alt="Portfolio tab" /></Link>
-          <Link to='/store'><img src={StoreText} className="Nav-dropdown-text" alt="Store tab" /></Link>
+          {/* <Link to='/store'><img src={StoreText} className="Nav-dropdown-text" alt="Store tab" /></Link> */}
           <Link to='/blog'><img src={BlogText} className="Nav-dropdown-text" alt="Blog tab" /></Link>
           <Link to='/videos'><img src={VideosText} className="Nav-dropdown-text" alt="Videos tab" /></Link>
           <Link to='/aboutme'><img src={AboutMeText} className="Nav-dropdown-text" alt="About me tab" /></Link>
