@@ -291,3 +291,9 @@ a, a:hover, a:focus, a:active {
     font-size: 13px;
   }
 }
+
+@media only screen and (max-width: 356px) {
+  .cover {
+    width: 90px;
+  }
+}
