@@ -23,10 +23,10 @@ function Home() {
 
           <div class="music-container">
             <div class="description-container">
-              <h1 class="music-text">
+              <h1 class="music-text song-title">
                 Divinity
               </h1>
-              <p class="music-text">
+              <p class="music-text song-artist">
                 Chandler G
               </p>
               <a href="https://soundcloud.com/chandler_g/divinity1?si=46c8824360604e5d9ddb557f9efb04a9">
@@ -39,10 +39,10 @@ function Home() {
           </div>
           <div class="music-container">
             <div class="description-container">
-              <h1 class="music-text">
+              <h1 class="music-text song-title">
                 Interstellar
               </h1>
-              <p class="music-text">
+              <p class="music-text song-artist">
                 Chandler G
               </p>
               <a href="https://open.spotify.com/track/5trco32KWsEstbJuW0VKp5?si=e18f40ef5fed49da">
@@ -61,10 +61,10 @@ function Home() {
           </div>
           <div class="music-container">
             <div class="description-container">
-              <h1 class="music-text">
+              <h1 class="music-text song-title">
                 Concepts
               </h1>
-              <p class="music-text">
+              <p class="music-text song-artist">
                 Chandler G
               </p>
               <a href="https://open.spotify.com/track/4Qo3woPeswg41rjEr8SLyN?si=e2bab35f6a2c4166">
@@ -83,10 +83,10 @@ function Home() {
           </div>
           <div class="music-container">
             <div class="description-container">
-              <h1 class="music-text">
+              <h1 class="music-text song-title">
                 Awaken
               </h1>
-              <p class="music-text">
+              <p class="music-text song-artist">
                 Chandler G
               </p>
               <a href="https://open.spotify.com/track/4t9ICFZkpANhaBEOYlnhgu?si=8ee541e1f3664fcc">

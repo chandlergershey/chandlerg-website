@@ -277,6 +277,17 @@ a, a:hover, a:focus, a:active {
   }
 }
 
-.scrollable-element {
-  scrollbar-color: red yellow;
+@media only screen and (max-width: 450px) {
+  .music-container {
+    padding: 10px 20px;
+  }
+}
+
+@media only screen and (max-width: 400px) {
+  .song-title {
+    font-size: 20px;
+  }
+  .song-artist {
+    font-size: 13px;
+  }
 }
