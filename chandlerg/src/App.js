@@ -25,8 +25,9 @@ function App() {
   return (
     <div className="">
       <Router>
-        <Navbar />
-        <div className="Navbar-overlap-padding">
+        {/* <Navbar /> */}
+        {/* <div className="Navbar-overlap-padding"> */}
+        <div>
           <Switch>
             <Route path="/" exact component={Home}/>
             <Route path="/design" exact component={Design}/>

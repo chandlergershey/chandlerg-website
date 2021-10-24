@@ -1,31 +1,111 @@
 import React from 'react';
 import './Home.css';
-import ChandlerHeadshot from '../assets/pngs/chandlergerstenslager.png';
-import ChandlerAndZack from '../assets/jpgs/chandler-and-zack.jpg';
+import AppleLogo from '../assets/chandlergmusic/apple-logo.png';
+import SpotifyLogo from '../assets/chandlergmusic/spotify-logo.png';
+import SoundCloudLogo from '../assets/chandlergmusic/soundcloud-logo.png';
+import ChandlerGLogo from '../assets/chandlergmusic/chandlerg-logo.png';
+import DivinityCover from '../assets/chandlergmusic/divinity-cover.jpg';
+import AwakenCover from '../assets/chandlergmusic/awaken-cover.jpg';
+import InterstellarCover from '../assets/chandlergmusic/interstellar-cover.jpg';
+import ConceptsCover from '../assets/chandlergmusic/concepts-cover.jpg';
 
 function Home() {
   return (
-    <div className="">
-      <div className="padding"></div>
-      <p className="Hello-text">Hi there!</p>
-      <div className="image-container">
-        <img className="Chandler-and-zack-image" src={ChandlerAndZack} alt='Chandler and Zack' />
+    <>
+      <div id='stars'></div>
+      <div id='stars2'></div>
+      <div id='stars3'></div>
+      <div class="page-container">
+        <div class="screen-container">
+          <div class="header-text">
+            <img class="chandlerg-logo" src={ChandlerGLogo} />
+          </div>
+
+          <div class="music-container">
+            <div class="description-container">
+              <h1 class="music-text">
+                Divinity
+              </h1>
+              <p class="music-text">
+                Chandler G
+              </p>
+              <a href="https://soundcloud.com/chandler_g/divinity1?si=46c8824360604e5d9ddb557f9efb04a9">
+                <img class="streaming-logo soundcloud-logo" src={SoundCloudLogo} />
+              </a>
+            </div>
+            <div class="cover-container">
+              <img class="cover" src={DivinityCover} />
+            </div>
+          </div>
+          <div class="music-container">
+            <div class="description-container">
+              <h1 class="music-text">
+                Interstellar
+              </h1>
+              <p class="music-text">
+                Chandler G
+              </p>
+              <a href="https://open.spotify.com/track/5trco32KWsEstbJuW0VKp5?si=e18f40ef5fed49da">
+                <img class="streaming-logo spotify-logo" src={SpotifyLogo} />
+              </a>
+              <a href="https://music.apple.com/us/album/interstellar/1562591095?i=1562591096">
+                <img class="streaming-logo apple-logo" src={AppleLogo} />
+              </a>
+              <a href="https://soundcloud.com/chandler_g/interstellar?si=d6c3a094282a47059140a0616a631a18">
+                <img class="streaming-logo soundcloud-logo" src={SoundCloudLogo} />
+              </a>
+            </div>
+            <div class="cover-container">
+              <img class="cover" src={InterstellarCover} />
+            </div>
+          </div>
+          <div class="music-container">
+            <div class="description-container">
+              <h1 class="music-text">
+                Concepts
+              </h1>
+              <p class="music-text">
+                Chandler G
+              </p>
+              <a href="https://open.spotify.com/track/4Qo3woPeswg41rjEr8SLyN?si=e2bab35f6a2c4166">
+                <img class="streaming-logo spotify-logo" src={SpotifyLogo} />
+              </a>
+              <a href="https://music.apple.com/us/album/concepts/1548223978?i=1548223979">
+                <img class="streaming-logo apple-logo" src={AppleLogo} />
+              </a>
+              <a href="https://soundcloud.com/chandler_g/concepts?si=b3387b3c2cb64fa09d014daf97fa5059">
+                <img class="streaming-logo soundcloud-logo" src={SoundCloudLogo} />
+              </a>
+            </div>
+            <div class="cover-container">
+              <img class="cover" src={ConceptsCover} />
+            </div>
+          </div>
+          <div class="music-container">
+            <div class="description-container">
+              <h1 class="music-text">
+                Awaken
+              </h1>
+              <p class="music-text">
+                Chandler G
+              </p>
+              <a href="https://open.spotify.com/track/4t9ICFZkpANhaBEOYlnhgu?si=8ee541e1f3664fcc">
+                <img class="streaming-logo spotify-logo" src={SpotifyLogo} />
+              </a>
+              <a href="https://music.apple.com/us/album/awaken/1529772581?i=1529772583">
+                <img class="streaming-logo apple-logo" src={AppleLogo} />
+              </a>
+              <a href="https://soundcloud.com/chandler_g/awaken?si=5b87d5053b8448ba896319385bcd4734">
+                <img class="streaming-logo soundcloud-logo" src={SoundCloudLogo} />
+              </a>
+            </div>
+            <div class="cover-container">
+              <img class="cover" src={AwakenCover} />
+            </div>
+          </div>
+        </div>
       </div>
-      
-      {/* <img className="Chandler-headshot" src={ChandlerHeadshot} alt="Chandler Gerstenslager" /> */}
-      <p className="text">Hi, my name is Chandler Gerstenslager and I am a software developer in Charleston, South Carolina.</p>
-      <p className="text">I graduated from the Ohio State University in the Spring of 2020. I received a Bachelor of Science in Computer & Information Science and a minor in Design.</p>
-      <p className="text">I am very passionate in the art world. I am a music producer, web developer, writer, and graphic designer. I have interests in fine arts and fashion too. I hope one day to create art that inspires people and interactive tools that improve people's lives.</p>
-      <p className="text"></p>
-      {/* <hr className="hr-element"/> */}
-      {/* <div className="bugs-container">
-        <p className=""><i>Current bugs with my site as of 09/25/2020 for employer reference:</i></p>
-        <p className="">(GitHub project - https://github.com/chandlergershey/chandlerg-website)</p>
-        <p className="">• Navbar element not formatted correctly in Internet Explorer. (Solution: Continue tweaking CSS)</p>
-        <p className="">• Refreshing the page hosted in AWS Amplify sometimes causes the page to not load. (Potential solution: Add API to Amplify backend and continue configuring React JS extension in my project)</p>
-        <p className="">• Going from mobile view to desktop view keeps the dropdown menu icon in navbar. (Solution: Use Javascript DOM features to control the display of the icon)</p>
-      </div> */}
-    </div>
+    </>
   );
 }
 
