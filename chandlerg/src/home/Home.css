@@ -1,6 +1,6 @@
 html {
   height: 100%;
-  background: #000000;
+  /* background: #000000; */
   overflow: hidden;
 }
 
@@ -98,7 +98,8 @@ html {
 
 html {
   height: 100%;
-  background: radial-gradient(ellipse at bottom, #1b2735 0%, #090a0f 100%);
+  /* background: radial-gradient(ellipse at bottom, #1b2735 0%, #090a0f 100%); */
+  background: #06061b;
   overflow: hidden;
 }
 
@@ -157,7 +158,7 @@ html {
 .screen-container{
   height: 100%;
   width: 100%;
-  overflow: scroll;
+  overflow-y: scroll;
 }
 
 .music-container{
@@ -274,4 +275,8 @@ a, a:hover, a:focus, a:active {
   .cover{
     width: 115px;
   }
+}
+
+.scrollable-element {
+  scrollbar-color: red yellow;
 }
