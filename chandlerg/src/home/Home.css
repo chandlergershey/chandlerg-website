@@ -162,6 +162,7 @@ html {
 
 .music-container{
   max-width: 800px;
+  width: 80%;
   background-color: rgba(0,0,0,.5);
   /* box-shadow: 0 0 60px 30px hsla(0,0%,100%,.5),0 0 100px 60px rgba(255,0,255,.5),0 0 140px 90px rgba(0,255,255,.5); */
   box-shadow: 0 0 15px 7px hsla(0,0%,100%,.5),0 0 25px 15px rgba(255,0,255,.5),0 0 35px 23px rgba(0,255,255,.5);
@@ -214,9 +215,14 @@ html {
   content: url('assets/soundcloud-logo-color.png');
 }
 
+
 .spotify-logo:hover {
   content: url('assets/spotify-logo-color.png');
 } */
+
+.spotify-logo{
+  margin-left: -7px;
+}
 
 .soundcloud-logo {
   margin-left: 5px;
@@ -239,4 +245,33 @@ a, a:hover, a:focus, a:active {
 
 .chandlerg-logo {
   width: 300px;
+}
+
+@media only screen and (max-width: 930px) {
+  .cover {
+    width: 122px;
+    margin-top: 5px;
+  }
+
+  .music-container {
+    margin: 40px auto;
+    padding: 10px 40px;
+  }
+
+  .music-text {
+    margin-top: 8px;
+    margin-bottom: 8px;
+  }
+}
+
+@media only screen and (max-width: 540px) {
+  .music-container {
+    width: 90%;
+  }
+  .streaming-logo {
+    width: 40px;
+  }
+  .cover{
+    width: 115px;
+  }
 }
